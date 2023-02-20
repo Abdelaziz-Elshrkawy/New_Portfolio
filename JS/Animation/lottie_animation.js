@@ -1,0 +1,30 @@
+
+const animation = () => {
+    const homeAnimation = bodymovin.loadAnimation({
+        container: document.getElementById('home-lottie-div'),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '../../assets/lottie/developer.json',
+    })
+    homeAnimation.setSpeed(0.5)
+
+    const skillsAnimation = bodymovin.loadAnimation({
+        container: document.getElementById('skills-lottie-div'),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '../../assets/lottie/skills.json',
+    })
+    skillsAnimation.setSpeed(0.5)
+    const certificatesAnimation = bodymovin.loadAnimation({
+        container: document.getElementById('certificates-lottie-div'),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '../../assets/lottie/certificate.json',
+    })
+    certificatesAnimation.setSpeed(0.6)
+}
+
+export default animation;
