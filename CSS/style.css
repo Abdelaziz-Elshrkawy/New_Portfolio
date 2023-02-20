@@ -342,16 +342,16 @@ ul li {
 
     transition: 0.4s;
 }
-.prvider-div a:first-child{
+.prvider-div a:last-child{
         color: #227748;
 }
-.prvider-div a:first-child:hover{
+.prvider-div a:last-child:hover{
     color: #104227;
 }
-.prvider-div a:last-child{
+.prvider-div a:first-child{
         color: #2c22fe;
 }
-.prvider-div a:last-child:hover{
+.prvider-div a:first-child:hover{
     color: #251f99;
 }
 .certificate-date{
