@@ -339,11 +339,20 @@ ul li {
     font-weight: bold;
     font-size: 2.1vw;
     margin: 0 10px;
-    color: #227748;
+
     transition: 0.4s;
 }
-.prvider-div a:hover{
+.prvider-div a:first-child{
+        color: #227748;
+}
+.prvider-div a:first-child:hover{
     color: #104227;
+}
+.prvider-div a:last-child{
+        color: #2c22fe;
+}
+.prvider-div a:last-child:hover{
+    color: #251f99;
 }
 .certificate-date{
     font-size: 1.1vw;
@@ -355,4 +364,4 @@ ul li {
 /* ------------------------------ */
 /* browser break points */
 
-/* ------------------------------ */
+/* ------------------------------ 2c22fe */
