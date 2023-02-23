@@ -23,9 +23,9 @@ const Certificates = () => {
         linkDiv.className = 'link-div'
         linkDiv.innerHTML = `<a href='${e.link}' target='blank'><button>Certificate Link</button></a>`
 
-        const proivderDiv = document.createElement('div');
-        proivderDiv.className = 'prvider-div'
-        proivderDiv.innerHTML = `<p>Provided by <a href='${data.provider[0].website}' target='blank'>
+        const providerDiv = document.createElement('div');
+        providerDiv.className = 'provider-div'
+        providerDiv.innerHTML = `<p>Provided by <a href='${data.provider[0].website}' target='blank'>
         ${data.provider[0].name.toUpperCase()}
         </a> Sponsored by <a href='${data.provider[1].website}' target='blank'>
         ${data.provider[1].name.toUpperCase()}</a>

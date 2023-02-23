@@ -330,10 +330,10 @@ ul li {
     opacity: 0.4;
     filter: drop-shadow(0 0 20px rgb(55, 101, 255));
 }
-.prvider-div p{
+.provider-div p{
     font-size: 1.6vw;
 }
-.prvider-div a {
+.provider-div a {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -342,16 +342,16 @@ ul li {
 
     transition: 0.4s;
 }
-.prvider-div a:last-child{
+.provider-div a:last-child{
         color: #227748;
 }
-.prvider-div a:last-child:hover{
+.provider-div a:last-child:hover{
     color: #104227;
 }
-.prvider-div a:first-child{
+.provider-div a:first-child{
         color: #2c22fe;
 }
-.prvider-div a:first-child:hover{
+.provider-div a:first-child:hover{
     color: #251f99;
 }
 .certificate-date{
