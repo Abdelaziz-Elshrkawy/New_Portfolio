@@ -1,5 +1,12 @@
 
 const animation = () => {
+    const loadingPageAnimation = bodymovin.loadAnimation({
+        container: document.getElementById('load'),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '../../assets/lottie/loading.json'
+    })
     const homeAnimation = bodymovin.loadAnimation({
         container: document.getElementById('home-lottie-div'),
         render: 'svg',

@@ -40,14 +40,6 @@ window.addEventListener('load', () => {
         navDiv.style.display = 'flex'
         document.body.removeChild(loaderContainer)
     }, 2000)
-    // loading element animation
-    bodymovin.loadAnimation({
-        container: loadDiv,
-        render: 'svg',
-        loop: true,
-        autoplay: true,
-        path: '../assets/lottie/loading.json'
-    })
     animation()
 })
 export { contentDiv };
