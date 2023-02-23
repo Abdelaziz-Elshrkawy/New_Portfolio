@@ -47,7 +47,7 @@ const Certificates = () => {
                 projectsDiv.appendChild(anchor);
             }
         }
-        certificateDiv.append(nameP, proivderDiv, dateP, linkDiv, projectsString, projectsDiv)
+        certificateDiv.append(nameP, providerDiv, dateP, linkDiv, projectsString, projectsDiv)
         certificatesDivContainer.append(lottieDiv, certificateDiv)
     })
     return certificatesDivContainer.outerHTML
