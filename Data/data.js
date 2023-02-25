@@ -1,4 +1,4 @@
-{
+const data = {
     "sections": [
         "home",
         "skills",
@@ -157,3 +157,4 @@
     ]
 }
 
+export default data

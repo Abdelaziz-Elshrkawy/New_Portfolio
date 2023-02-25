@@ -1,4 +1,4 @@
-import data from '../../Data/data.json' assert {type: 'json'};
+import data from "../../Data/data.js"
 
 const Certificates = () => {
     const certificatesDivContainer = document.createElement('div')

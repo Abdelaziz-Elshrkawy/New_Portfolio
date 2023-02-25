@@ -1,11 +1,11 @@
-import data from '../../../Data/data.json' assert {type: 'json'};
+import data from '../../../Data/data.js';
 import routing from '../../routing.js';
 import animation from '../../Animation/lottie_animation.js';
 // nav bar content 
 const NavContent = (parent) => {
     const nav = document.createElement('nav');
     const ul = document.createElement('ul');
-    data.sections.forEach((e,i) => {
+    data.sections.forEach((e, i) => {
         const li = document.createElement('li');
         li.className = 'nav-li'
         const anchor = document.createElement('a');
@@ -19,7 +19,7 @@ const NavContent = (parent) => {
         anchor.addEventListener('mouseleave', () => {
             anchor.textContent = data.intro[i]
         })
-         
+
         anchor.addEventListener('click', (event) => {
             const containerID = document.getElementById('content').childNodes[0].id.split('-')[0]
             if (containerID && containerID !== event.target.name) {

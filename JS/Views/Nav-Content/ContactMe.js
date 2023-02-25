@@ -1,4 +1,4 @@
-import data from '../../../../Data/data.json' assert {type: 'json'};
+import data from "../../../Data/data.js";
 
 const ContactMe = (parent) => {
     const contactMeDiv = document.createElement('div');

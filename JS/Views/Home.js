@@ -1,5 +1,3 @@
-import data from '../../Data/data.json' assert {type: 'json'};
-
 const Home = () => {
     const div = document.createElement('div');
     div.id = 'home-div'

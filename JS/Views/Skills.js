@@ -1,4 +1,4 @@
-import data from '../../Data/data.json' assert {type: 'json'};
+import data from "../../Data/data.js"
 
 const Skills = () => {
     const skillsDiv = document.createElement('div')
@@ -41,13 +41,14 @@ const Skills = () => {
 
         finalStyle += styleText
         div.appendChild(svg)
+
         div.appendChild(imgDiv)
         div.appendChild(textP)
         skillsDiv.appendChild(div)
     })
     skillsDiv.appendChild(lottieDiv)
     style.innerHTML = finalStyle
-/*     document.body.append(style) */
+    /*     document.body.append(style) */
     return skillsDiv.outerHTML
 }
 export default Skills;

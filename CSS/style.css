@@ -228,20 +228,19 @@ ul li {
 .img-div{
     margin: 0;
     position: relative;
-    top: -55%;
     left: 40%;
     background-repeat: no-repeat;
-    width: 10vw;
-    height: 7vh;
+    width: 20%;
+    height: 20%;
     filter: drop-shadow(0 0.9px 5px #3987e0);
     animation: down-and-up 3s infinite;
 }
 .text-p{
     margin: 0;
     color: #fff;
-    margin-top: -40px;
+    margin-top: -15%;
     margin-bottom: 30px;
-    font-size: 1.2em;
+    font-size: 1.3vw;
 }
 .circular-chart {
     display: block;
@@ -260,7 +259,7 @@ ul li {
 }
 
 #skills-lottie-div{
-    height: 40%;
+    height: 30vh;
     position: fixed;
     z-index: -1 ;
     left: 20%;
