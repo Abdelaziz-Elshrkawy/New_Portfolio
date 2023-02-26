@@ -3,6 +3,7 @@ const Home = () => {
     div.id = 'home-div'
     const img = document.createElement('img');
     img.src = '../../assets/IMG.png'
+    img.alt = 'my-photo'
     const lottie = document.createElement('div')
     lottie.id = 'home-lottie-div'
     const intro = document.createElement('div')
