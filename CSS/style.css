@@ -324,6 +324,7 @@ ul li {
     right: 50vw;
     opacity: 0.4;
     filter: drop-shadow(0 0 20px rgb(55, 101, 255));
+    z-index: -1;
 }
 .provider-div p{
     font-size: 1.6vw;
