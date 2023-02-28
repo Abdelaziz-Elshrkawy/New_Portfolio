@@ -36,7 +36,11 @@ const Certificates = () => {
 
         const projectsString = document.createElement('p')
         projectsString.className = 'projects-string'
-        projectsString.textContent = e.projects ? 'Projects:' : ''
+        projectsString.textContent = 'Projects:'
+        e.projects ?
+            projectsString.style.display = 'block'
+            : 
+            projectsString.style.display = 'none'
 
         if (e.projects) {
             for (let project of e.projects) {
