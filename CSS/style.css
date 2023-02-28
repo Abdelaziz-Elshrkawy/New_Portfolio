@@ -278,7 +278,7 @@ ul li {
         top: -55%;
     }
     50%{
-        top: -53%;
+        top: -52%;
     }
 }
 /* ------------------------------ */
@@ -290,7 +290,7 @@ ul li {
     height: 2vw;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.8vw;
+    font-size: 1.2vw;
     font-family: 'Righteous', cursive, 'Courier New', Courier, monospace;
 }
 .link-div button{
@@ -363,4 +363,4 @@ ul li {
 /* ------------------------------ */
 /* browser break points */
 
-/* ------------------------------ 2c22fe */
+/* ------------------------------ */
