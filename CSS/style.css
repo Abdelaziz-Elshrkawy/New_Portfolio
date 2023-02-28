@@ -179,10 +179,9 @@ ul li {
     letter-spacing: .15em;
     border-right: .15em solid rgb(0, 255, 136);
     animation: typing 3.7s steps(30, end) forwards,
-        blink .6s step-end infinite,
+        blink 0.6s step-end infinite,
         opacity 2s 6s forwards;
     text-shadow: 0 0 10px  ;
-    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 @keyframes typing {
     0% {
@@ -287,17 +286,14 @@ ul li {
     width: 100%;
 }
 .projects-div a button,.link-div button{
-    height: 2vw;
+    height: auto;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-family: 'Righteous', cursive, 'Courier New', Courier, monospace;
 }
 .link-div button{
     background-color: #1ac6e0;   
-    height: 2vw;
-    border-radius: 10px;
-    cursor: pointer;
 }
 .projects-div a button{
     background-color: #589eff;
