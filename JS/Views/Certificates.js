@@ -25,11 +25,12 @@ const Certificates = () => {
 
         const providerDiv = document.createElement('div');
         providerDiv.className = 'provider-div'
-        providerDiv.innerHTML = `<p>Provided by <a href='${data.provider[0].website}' target='blank'>
-        ${data.provider[0].name.toUpperCase()}
-        </a> Sponsored by <a href='${data.provider[1].website}' target='blank'>
-        ${data.provider[1].name.toUpperCase()}</a>
-        </p>`
+        providerDiv.innerHTML =
+            `<p>Provided by <a href='${data.provider[0].website}' target='blank'>
+            ${data.provider[0].name.toUpperCase()}
+            </a> Sponsored by <a href='${data.provider[1].website}' target='blank'>
+            ${data.provider[1].name.toUpperCase()}</a>
+            </p>`
 
         const projectsDiv = document.createElement('div')
         projectsDiv.className = 'projects-div'

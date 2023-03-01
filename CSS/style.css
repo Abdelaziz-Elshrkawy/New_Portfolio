@@ -37,10 +37,9 @@ body{
     z-index: 999;
 }
 #load{
-    margin: auto;
+    margin: 5% auto 0 auto;
     position: relative;
     width: 50vw;
-    height: 70vh;
 }
 #load-text{
     text-align: center;
@@ -126,6 +125,7 @@ ul li {
     align-items: center;
     justify-content: center;
 }
+
 #contact-me-div a{
     display: inline-block;
     text-decoration: none;
@@ -151,7 +151,7 @@ ul li {
 #home-div img{
     display: inline-block;
     max-width: 50vw;
-    max-height: 50vw;
+    max-height: 40vw;
     filter: grayscale(0.9);
     opacity: 0.3;
 }
@@ -359,5 +359,43 @@ ul li {
 }
 /* ------------------------------ */
 /* browser break points */
+@media screen and (max-width: 1000px) {
+    #home-div img {
+        margin-top: 20%;
+    }
+    #home-lottie-div{
+        margin-top: -80%;
+    }
+    #contact-me-div{
 
+    }
+    #intro-div{
+        display: none;
+    }
+    #contact-me-div a{
+        padding: 10px;
+        font-size: 0.01em;
+        max-width: 10%;
+    }
+    #contact-me-div a:hover {
+        transform: scale(1.4);
+        color: rgb(0, 0, 0);
+    }
+    #nav{
+        margin-top: 20%;
+        width: 40%;
+    }
+    #content{
+        width: 60%;
+    }
+    nav{
+        margin-left: -10%;
+    }
+    #load{
+        width: 100%;
+    }
+    #load-text{
+        font-size: 3vw;
+    }
+}
 /* ------------------------------ */
