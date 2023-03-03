@@ -13,7 +13,7 @@ const Skills = () => {
         div.id = e.name === 'node.js' || e.name === 'express.js' ? e.name.slice(0, -3) : e.name
 
         const imgDiv = document.createElement('div')
-        imgDiv.className = 'img-div'
+        imgDiv.className = 'skill-img-div'
         imgDiv.style.backgroundImage = `url(${e.logo})`
 
         const textP = document.createElement('p')

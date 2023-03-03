@@ -1,17 +1,20 @@
 const Home = () => {
     const div = document.createElement('div');
     div.id = 'home-div'
-    const img = document.createElement('img');
-    img.src = '../../assets/IMG.png'
-    img.alt = 'my-photo'
+    const imgDiv = document.createElement('div')
+    imgDiv.id = 'img-div-home'
+    imgDiv.style.backgroundImage = `url('../../assets/IMG.png')`
     const lottie = document.createElement('div')
     lottie.id = 'home-lottie-div'
     const intro = document.createElement('div')
     intro.id = 'intro-div'
     intro.innerHTML = '<p>Welcome to My Portfolio</P>'
-    div.appendChild(lottie)
-    div.appendChild(img)
-    div.appendChild(intro)
+    const lottieIntroDiv = document.createElement('div')
+    lottieIntroDiv.id = 'lottie-intro-div'
+    lottieIntroDiv.append(lottie, intro)
+    div.appendChild(lottieIntroDiv)
+    div.appendChild(imgDiv)
+
     return div.outerHTML
 }
 
