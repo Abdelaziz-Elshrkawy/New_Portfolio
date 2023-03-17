@@ -5,7 +5,7 @@ import animation from '../../Animation/lottie_animation.js';
 const NavContent = (parent) => {
     const nav = document.createElement('nav');
     const ul = document.createElement('ul');
-    data.sections.forEach((e, i) => {
+    data.sections.forEach((e, i) => { 
         const li = document.createElement('li');
         li.className = 'nav-li'
         const anchor = document.createElement('a');

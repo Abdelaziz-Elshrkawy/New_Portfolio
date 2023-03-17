@@ -142,6 +142,9 @@ ul li {
     transform: scale(1.4);
     color: white;
 }
+#email{
+    width: 6%;
+}
 /* ------------------------------ */
 /* home */
 #home-div{
@@ -298,6 +301,12 @@ ul li {
     font-size: 1.4vw;
     font-family: 'Righteous', cursive, 'Courier New', Courier, monospace;
 }
+.certificate{
+    border-top: 1px solid #888;
+    border-bottom: 3px solid #888;
+    padding-bottom: 5%;
+    border-radius: 10%;
+}
 .link-div button{
     background-color: #1ac6e0;   
 }
@@ -366,12 +375,7 @@ ul li {
 /* ------------------------------ */
 /* browser break points */
 @media screen and (max-width: 1000px) {
-    #home-lottie-div{
 
-    }
-    #contact-me-div{
-
-    }
     #skills-div{
         grid-gap: 5px;
     }
