@@ -38,8 +38,10 @@ const Skills = () => {
             animation-delay: ${Math.random(0.01).toFixed(3)}s;
         };`
 
-
         finalStyle += styleText
+        style.innerHTML = finalStyle
+        document.body.append(style)
+
         div.appendChild(svg)
 
         div.appendChild(imgDiv)
@@ -47,8 +49,6 @@ const Skills = () => {
         skillsDiv.appendChild(div)
     })
     skillsDiv.appendChild(lottieDiv)
-    style.innerHTML = finalStyle
-    /*     document.body.append(style) */
     return skillsDiv.outerHTML
 }
 export default Skills;

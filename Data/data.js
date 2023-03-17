@@ -74,6 +74,11 @@ const data = {
             "logo": "https://angular.io/assets/images/logos/angular/angular.svg"
         },
         {
+            "name": "jasmine",
+            "percent": "50%",
+            "logo": "https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg"
+        },
+        {
             "name": "Illustrator",
             "percent": "30%",
             "logo": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/illustrator.svg"
