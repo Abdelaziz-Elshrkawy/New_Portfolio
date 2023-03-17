@@ -306,6 +306,10 @@ ul li {
     border-bottom: 3px solid #888;
     padding-bottom: 5%;
     border-radius: 10%;
+    margin-right: 2vw;
+}
+.certificate:first-child{
+    margin-top: 5vh;
 }
 .link-div button{
     background-color: #1ac6e0;   
