@@ -7,6 +7,12 @@ const Certificates = () => {
     const lottieDiv = document.createElement('div')
     lottieDiv.id = 'certificates-lottie-div'
 
+    const certificatesHeader = document.createElement('div')
+    certificatesHeader.textContent = 'Certificates'
+    certificatesHeader.id = 'certificates-header'
+
+    certificatesDivContainer.appendChild(certificatesHeader)
+
     data.certificates.forEach(e => {
         const certificateDiv = document.createElement('div')
         certificateDiv.className = 'certificate'

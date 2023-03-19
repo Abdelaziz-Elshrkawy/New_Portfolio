@@ -1,12 +1,22 @@
 import data from "../../Data/data.js"
 
 const Skills = () => {
+    const skillsDivContainer = document.createElement('div')
+    skillsDivContainer.id = 'skills-div-container'
+
     const skillsDiv = document.createElement('div')
     skillsDiv.id = 'skills-div'
     const style = document.createElement('style')
     let finalStyle = ''
     const lottieDiv = document.createElement('div')
     lottieDiv.id = 'skills-lottie-div'
+
+    const skillsHeader = document.createElement('div')
+    skillsHeader.textContent = 'Skills'
+    skillsHeader.id = 'skills-header'
+    
+    skillsDivContainer.appendChild(skillsHeader)
+
     data.skills.forEach((e, i) => {
         const div = document.createElement('div')
         div.className = 'skill'
@@ -49,8 +59,10 @@ const Skills = () => {
         skillsDiv.appendChild(div)
     })
     skillsDiv.appendChild(lottieDiv)
-    return skillsDiv.outerHTML
+    skillsDivContainer.appendChild(skillsDiv)
+    return skillsDivContainer.outerHTML
 }
+
 export default Skills;
 
 
