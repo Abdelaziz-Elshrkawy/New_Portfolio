@@ -23,7 +23,7 @@ NavContent(navDiv)
 ContactMe(navDiv)
 
 
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const loaderContainer = document.createElement('div')
     loaderContainer.id = 'load-container'
     const loadDiv = document.createElement('div')
@@ -35,10 +35,11 @@ window.addEventListener('load', () => {
     loaderContainer.appendChild(loadText)
     document.body.prepend(loaderContainer)
     //removing the loading element
-    setTimeout(() => {
+    setTimeout( async() => {
         root.style.display = 'flex'
         navDiv.style.display = 'flex'
         document.body.removeChild(loaderContainer)
+        await animation()
     }, 2000)
     animation()
 })

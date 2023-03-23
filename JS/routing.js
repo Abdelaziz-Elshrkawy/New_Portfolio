@@ -2,7 +2,6 @@ import Home from "./Views/Home.js";
 import Skills from "./Views/Skills.js";
 import Certificates from "./Views/Certificates.js";
 import { contentDiv } from "./main.js";
-import data from "../Data/data.js";
 
 const routes = {
     home: Home(),
