@@ -395,7 +395,14 @@ ul li {
 /* ------------------------------ */
 /* browser break points */
 @media screen and (max-width: 1000px) {
-
+    #intro-div{
+        width: 125%;
+        position: relative;
+        right: 50%;
+    }
+    #intro-div p{
+        font-size: 2vw;
+    }
     #skills-div{
         grid-gap: 5px;
     }
