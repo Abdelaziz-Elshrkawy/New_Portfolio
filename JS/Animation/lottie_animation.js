@@ -7,6 +7,7 @@ const animation = () => {
         autoplay: true,
         path: '../../assets/lottie/loading.json'
     })
+
     const homeAnimation = bodymovin.loadAnimation({
         container: document.getElementById('home-lottie-div'),
         render: 'svg',
@@ -24,6 +25,7 @@ const animation = () => {
         path: '../../assets/lottie/skills.json',
     })
     skillsAnimation.setSpeed(0.5)
+
     const certificatesAnimation = bodymovin.loadAnimation({
         container: document.getElementById('certificates-lottie-div'),
         render: 'svg',
