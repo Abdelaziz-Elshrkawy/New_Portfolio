@@ -26,6 +26,10 @@ const NavContent = (parent) => {
                 routing(event.target.name)
                 animation()
             }
+            if (e.id === event.target.name) {
+                e.textContent = data.sections[i]
+                $(e).off('mouseleave')
+            }
         })
         li.appendChild(anchor)
         ul.appendChild(li)

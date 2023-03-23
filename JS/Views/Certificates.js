@@ -46,7 +46,7 @@ const Certificates = () => {
         projectsString.textContent = 'Projects:'
         e.projects ?
             projectsString.style.display = 'block'
-            : 
+            :
             projectsString.style.display = 'none'
 
         if (e.projects) {
@@ -59,7 +59,8 @@ const Certificates = () => {
             }
         }
         certificateDiv.append(nameP, providerDiv, dateP, linkDiv, projectsString, projectsDiv)
-        certificatesDivContainer.append(lottieDiv, certificateDiv)
+        certificatesDivContainer.appendChild(lottieDiv)
+        certificatesDivContainer.appendChild(certificateDiv)
     })
     return certificatesDivContainer.outerHTML
 }
