@@ -6,6 +6,10 @@ body{
     background-color: #000;
     display: flex;
 }
+::selection{
+    background-color: rgb(25, 255, 244);
+    color: #000;
+}
 /* scroll bar */
 /* width */
 ::-webkit-scrollbar {
@@ -271,8 +275,8 @@ ul li {
     position: fixed;
     z-index: -1 ;
     left: 20%;
-    top: 0;
-    opacity: 0.3;
+    top: 5%;
+    opacity: 0.4;
     filter: drop-shadow(0 0 10px rgb(55, 101, 255));
 }
 #jasmine .skill-img-div{
