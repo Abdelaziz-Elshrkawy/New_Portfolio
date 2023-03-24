@@ -15,7 +15,7 @@ const data = {
         "linkedIn": "https://www.linkedin.com/in/abdelaziz-elshrkawy-5b6888146",
         "github": "https://github.com/Abdelaziz-Elshrkawy",
         "email": "abdelaziz_elshrkawy53@yahoo.com",
-        "resume": "https://drive.google.com/file/d/1kWHapGO0FfpJzy1EK26kz1etRbuPoMX6/view?usp=share_link"
+        "resume": "1kWHapGO0FfpJzy1EK26kz1etRbuPoMX6"
     },
     "skills": [
         {
@@ -84,7 +84,6 @@ const data = {
             "logo": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/illustrator.svg"
         }
     ],
-    "resumeLink": "https://drive.google.com/file/d/1kWHapGO0FfpJzy1EK26kz1etRbuPoMX6/view?usp=share_link",
     "certificates": [
         {
             "name": "Challenger",

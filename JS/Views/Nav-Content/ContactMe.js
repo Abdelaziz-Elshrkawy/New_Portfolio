@@ -6,8 +6,20 @@ const ContactMe = (parent) => {
     for (const contact in data.contactMe) {
         const anchor = document.createElement('a');
         anchor.id = contact
-        anchor.href = contact === 'email' ? `mailto:${data.contactMe[contact]}` : data.contactMe[contact]
-        anchor.target = 'blank'
+        if (contact === 'resume') {
+            anchor.href = '#'
+            anchor.addEventListener('click', (e) => {
+                e.preventDefault()
+                const resume = document.getElementById('resume-blur-parent')
+                resume.style.opacity = '1'
+                resume.style.zIndex = 999
+                resume.style.display = 'block'
+                resume.className = 'blur'
+            })
+        } else {
+            anchor.href = contact === 'email' ? `mailto:${data.contactMe[contact]}` : data.contactMe[contact]
+            anchor.target = 'blank'
+        }
         anchor.textContent = `${contact.charAt(0).toUpperCase()}${contact.slice(1)}`
         contactMeDiv.appendChild(anchor)
         const animation = bodymovin.loadAnimation({

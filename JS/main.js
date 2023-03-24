@@ -1,6 +1,7 @@
 import NavContent from "./Views/Nav-Content/Nav.js";
 import ContactMe from "./Views/Nav-Content/ContactMe.js";
 import animation from "./Animation/lottie_animation.js";
+import Resume from "./Views/Resume.js";
 
 
 
@@ -21,6 +22,7 @@ root.appendChild(contentDiv)
 NavContent(navDiv)
 //appending contactMe to navDiv
 ContactMe(navDiv)
+Resume()
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -39,10 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
         root.style.display = 'flex'
         navDiv.style.display = 'flex'
         document.body.removeChild(loaderContainer)
-        await animation()
     }, 2000)
     animation()
 })
-export { contentDiv };
+
+export { contentDiv, root };
 
 
