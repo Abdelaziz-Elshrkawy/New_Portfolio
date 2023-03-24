@@ -445,6 +445,11 @@ ul li {
     #intro-div p{
         font-size: 2vw;
     }
+    #resume-container{
+        top: 25%;
+        height: 50%;
+        width: 100%;
+    }
     #skills-div{
         grid-gap: 5px;
     }
