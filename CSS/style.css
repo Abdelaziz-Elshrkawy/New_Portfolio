@@ -193,7 +193,7 @@ ul li {
     color: white;
 }
 #email{
-    width: 7%;
+    max-width: 7%;
 }
 /* ------------------------------ */
 /* home */
@@ -448,16 +448,22 @@ ul li {
     #resume-container{
         top: 25%;
         height: 50%;
-        width: 100%;
+        width: 95%;
     }
     #skills-div{
         grid-gap: 5px;
     }
     #contact-me-div a{
-        padding: 5px;
+        padding: 20px;
         font-size: 0;
         margin-top: 50px;
         max-width: 10%;
+    }
+     #contact-me-div #resume{
+        max-width: 15%;
+    }
+    #resume-download-anchor button{
+        font-size: 2.5vw;
     }
     #contact-me-div a:hover {
         transform: scale(1.4);
@@ -472,6 +478,9 @@ ul li {
     }
     nav{
         margin-left: -10%;
+    }
+    .nav-link{
+        font-size: 1em;
     }
     #load{
         width: 100%;
