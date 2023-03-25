@@ -17,9 +17,6 @@ const ContactMe = (parent) => {
                 resume.className = 'blur'
             })
         } else {
-            anchor.addEventListener('click', (e) => { 
-                e.preventDefault()
-            })
             anchor.href = contact === 'email' ? `mailto:${data.contactMe[contact]}` : data.contactMe[contact]
             anchor.target = 'blank'
         }
