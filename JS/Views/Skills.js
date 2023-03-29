@@ -7,7 +7,7 @@ const Skills = () => {
     const skillsDiv = document.createElement('div')
     skillsDiv.id = 'skills-div'
     const style = document.createElement('style')
-    let finalStyle = ''
+
     const lottieDiv = document.createElement('div')
     lottieDiv.id = 'skills-lottie-div'
 
@@ -44,13 +44,11 @@ const Skills = () => {
         path.setAttribute('d', 'M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
         svg.appendChild(path)
 
-        const styleText = `.img-div:nth-child(${i + 1}){
+        const styleText = `.skill-img-div:nth-child(${i + 1}){
             animation-delay: ${Math.random(0.01).toFixed(3)}s;
         };`
 
-        finalStyle += styleText
-        style.innerHTML = finalStyle
-        document.body.append(style)
+        style.innerHTML+= styleText
 
         div.appendChild(svg)
 
@@ -58,6 +56,7 @@ const Skills = () => {
         div.appendChild(textP)
         skillsDiv.appendChild(div)
     })
+    // document.head.appendChild(style)
     skillsDiv.appendChild(lottieDiv)
     skillsDivContainer.appendChild(skillsDiv)
     return skillsDivContainer.outerHTML
