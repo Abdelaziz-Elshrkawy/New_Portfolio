@@ -454,10 +454,10 @@ ul li {
         grid-gap: 5px;
     }
     #contact-me-div a{
-        padding: 20px;
+        padding: 5px;
         font-size: 0;
-        margin-top: 50px;
-        max-width: 10%;
+        margin-top: 20px;
+        max-width: 11%;
     }
      #contact-me-div #resume{
         max-width: 15%;
@@ -511,6 +511,9 @@ ul li {
     }
     .skill-img-div{
         margin-top: 3vh;
+    }
+    .certificate{
+        padding-bottom: 2%;
     }
 }
 /* ------------------------------ */
