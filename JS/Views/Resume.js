@@ -1,17 +1,22 @@
 import data from "../../Data/data.js";
-import { root } from "../main.js";
 
 
 const Resume = () => {
     const blurParent = document.createElement('div')
     blurParent.id = 'resume-blur-parent'
     const resumeContainer = document.createElement('div')
-
-    
     resumeContainer.id = 'resume-container'
     resumeContainer.innerHTML =
         `<iframe src="https://drive.google.com/file/d/${data.contactMe.resume}/preview" 
         width="100%" height="100%" allow="autoplay"></iframe>`
+
+        
+    blurParent.addEventListener('click', (e) => {
+        if (e.target.id !== resumeContainer.id) {
+            blurParent.style.display = 'none'
+            blurParent.classList.remove('blur')
+        }
+    })
     
     // download resume
     const anchor = document.createElement('a')
@@ -23,12 +28,6 @@ const Resume = () => {
     anchor.appendChild(downloadButton)
     resumeContainer.appendChild(anchor)
 
-    blurParent.addEventListener('click', (e) => {
-        if (e.target.id !== resumeContainer.id) {
-            blurParent.style.display = 'none'
-            blurParent.classList.remove('blur')
-        }
-    })
     blurParent.appendChild(resumeContainer)
     document.body.append(blurParent)
 }

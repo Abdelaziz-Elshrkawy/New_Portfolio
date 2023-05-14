@@ -22,6 +22,7 @@ root.appendChild(contentDiv)
 NavContent(navDiv)
 //appending contactMe to navDiv
 ContactMe(navDiv)
+
 Resume()
 
 
