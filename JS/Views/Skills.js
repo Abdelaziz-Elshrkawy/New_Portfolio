@@ -26,6 +26,9 @@ const Skills = () => {
         imgDiv.className = 'skill-img-div'
         imgDiv.style.backgroundImage = `url(${e.logo})`
 
+        const percentP = document.createElement('p')
+        percentP.className = 'percent-p'
+        percentP.textContent = e.percent;
         const textP = document.createElement('p')
         textP.className = 'text-p'
         textP.textContent = e.name === 'html' || e.name === 'css' ?
@@ -53,6 +56,7 @@ const Skills = () => {
         div.appendChild(svg)
 
         div.appendChild(imgDiv)
+        div.appendChild(percentP)
         div.appendChild(textP)
         skillsDiv.appendChild(div)
     })

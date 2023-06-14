@@ -284,10 +284,11 @@ ul li {
 .skill-img-div{
     margin: 0;
     position: relative;
-    left: 39%;
+    left: 40%;
     background-repeat: no-repeat;
-    width: 25%;
-    height: 27%;
+    background-size: 80%;
+    width: 28%;
+    height: 30%;
     filter: drop-shadow(0 0.9px 5px #3987e0);
     animation: down-and-up 3s infinite;
 }
@@ -297,6 +298,22 @@ ul li {
     margin-top: -15%;
     margin-bottom: 30px;
     font-size: 1.3vw;
+}
+.percent-p{
+    position: absolute;
+    top: 78%;
+    left: 42%;
+    font-size: 2.1vw;
+    color: rgb(3, 187, 3);
+    animation: showPercent  2.5s ease ;
+}
+@keyframes showPercent {
+    0%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(3, 187, 3);
+    }
 }
 .circular-chart {
     display: block;
@@ -322,9 +339,6 @@ ul li {
     top: 5%;
     opacity: 0.4;
     filter: drop-shadow(0 0 10px rgb(55, 101, 255));
-}
-#jasmine .skill-img-div{
-    background-size: 90%;
 }
 #skills-header{
     margin-top: 3%;
