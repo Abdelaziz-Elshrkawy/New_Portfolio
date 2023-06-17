@@ -14,7 +14,7 @@ const data = {
         "twitter": "https://twitter.com/abdelziz53/",
         "linkedIn": "https://www.linkedin.com/in/abdelaziz-elshrkawy-5b6888146",
         "github": "https://github.com/Abdelaziz-Elshrkawy",
-        "email": "abdelaziz_elshrkawy53@yahoo.com",
+        "email": "abdelaziz.abdellatif0@gmail.com",
         "resume": "1kWHapGO0FfpJzy1EK26kz1etRbuPoMX6"
     },
     "skills": [
