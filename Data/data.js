@@ -44,11 +44,6 @@ const data = {
             "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
         },
         {
-            "name": "python",
-            "percent": "30%",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-        },
-        {
             "name": "nodejs",
             "percent": "60%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
