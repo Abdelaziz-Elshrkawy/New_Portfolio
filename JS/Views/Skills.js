@@ -14,7 +14,7 @@ const Skills = () => {
     const skillsHeader = document.createElement('div')
     skillsHeader.textContent = 'Skills'
     skillsHeader.id = 'skills-header'
-
+    
     skillsDivContainer.appendChild(skillsHeader)
 
     data.skills.forEach((e, i) => {
@@ -51,9 +51,9 @@ const Skills = () => {
             animation-delay: ${Math.random(0.01).toFixed(3)}s;
         };`
 
-        style.innerHTML += styleText
+        style.innerHTML+= styleText
 
-        // div.appendChild(svg)
+        div.appendChild(svg)
 
         div.appendChild(imgDiv)
         // div.appendChild(percentP)
