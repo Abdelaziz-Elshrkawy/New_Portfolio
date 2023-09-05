@@ -40,7 +40,7 @@ const data = {
         },
         {
             "name": "c",
-            "percent": "50%",
+            "percent": "60%",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
         },
         {
