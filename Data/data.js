@@ -15,7 +15,7 @@ const data = {
         "linkedIn": "https://www.linkedin.com/in/abdelaziz-elshrkawy-5b6888146",
         "github": "https://github.com/Abdelaziz-Elshrkawy",
         "email": "abdelaziz.abdellatif0@gmail.com",
-        "resume": "1kWHapGO0FfpJzy1EK26kz1etRbuPoMX6"
+        "resume": "1Cnj4DMBweyP3vBdNGVqEkR5fHsN-1kJP"
     },
     "skills": [
         {
