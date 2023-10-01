@@ -12,7 +12,7 @@ const data = {
     "contactMe": {
         "facebook": "https://www.facebook.com/zezo.elsharkawy/",
         "twitter": "https://twitter.com/abdelziz53/",
-        "linkedIn": "https://www.linkedin.com/in/abdelaziz-elshrkawy-5b6888146",
+        "linkedIn": "https://www.linkedin.com/in/abdelaziz-elshrkawy/",
         "github": "https://github.com/Abdelaziz-Elshrkawy",
         "resume": "1Cnj4DMBweyP3vBdNGVqEkR5fHsN-1kJP",
         "email": "abdelaziz.abdellatif0@gmail.com"
