@@ -20,72 +20,72 @@ const data = {
     "skills": [
         {
             "name": "html",
-            "percent": "90%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
         },
         {
             "name": "css",
-            "percent": "70%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
         },
         {
             "name": "javascript",
-            "percent": "70%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
         },
         {
             "name": "typescript",
-            "percent": "60%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
         },
         {
             "name": "c",
-            "percent": "60%",
+            "percent": "100%",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
         },
         {
             "name": "nodejs",
-            "percent": "60%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
         },
         {
             "name": "expressjs",
-            "percent": "60%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
         },
         {
             "name": "postgresql",
-            "percent": "60%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
         },
         {
             "name": "mongodb",
-            "percent": "50%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
         },
         {
             "name": "reactjs",
-            "percent": "60%",
+            "percent": "100%",
             "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
         },
         {
             "name": "react-Native",
-            "percent": "40%",
+            "percent": "100%",
             "logo": "https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg"
         },
         {
             "name": "angular",
-            "percent": "50%",
+            "percent": "100%",
             "logo": "https://angular.io/assets/images/logos/angular/angular.svg"
         },
         {
             "name": "jasmine",
-            "percent": "50%",
+            "percent": "100%",
             "logo": "https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg"
         },
         {
             "name": "Illustrator",
-            "percent": "30%",
+            "percent": "100%",
             "logo": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/illustrator.svg"
         }
     ],
